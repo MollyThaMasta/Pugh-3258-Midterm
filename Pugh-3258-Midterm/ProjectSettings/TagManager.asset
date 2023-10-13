@@ -8,6 +8,7 @@ TagManager:
   - Purple
   - Coin
   - Boulder
+  - BulletBox
   layers:
   - Default
   - TransparentFX
