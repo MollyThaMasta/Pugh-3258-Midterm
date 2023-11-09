@@ -26159,12 +26159,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121335822}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -21.67, y: 3.17, z: 15.65}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.0067390203, z: -0, w: 0.99997735}
+  m_LocalPosition: {x: 0.017116785, y: 1.0566335, z: -1.2698852}
+  m_LocalScale: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1385019381}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1141072725
 GameObject:
@@ -39759,7 +39759,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 36.250893, y: 958.9813}
+  m_AnchoredPosition: {x: 125, y: -50}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464997289
@@ -40142,9 +40142,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Anime Girl
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ccea775f1307d46438d6e6977b0e7e60, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: ccea775f1307d46438d6e6977b0e7e60, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1121335828}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccea775f1307d46438d6e6977b0e7e60, type: 3}
 --- !u!850595691 &1511260158
@@ -46353,7 +46360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1588.8107, y: 958.9813}
+  m_AnchoredPosition: {x: -125, y: -50}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1969632510
@@ -49160,5 +49167,4 @@ SceneRoots:
   - {fileID: 323917011}
   - {fileID: 124999753}
   - {fileID: 1654770968}
-  - {fileID: 1121335828}
   - {fileID: 1313703066}
